@@ -19,5 +19,3 @@ You can use lazy.nvim to install it as follows:
   },
 }
 ```
-
-```
