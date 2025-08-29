@@ -40,7 +40,7 @@ Group.new("Cursor", colors.background, colors.cyan, styles.none)
 Group.new("Conceal", colors.foreground, colors.background)
 Group.new("LineNr", colors.cyan, colors.background, styles.none)
 Group.new("CursorLineNr", colors.bright_magenta, colors.background, styles.none)
-Group.new("Directory", colors.cyan, colors.background, styles.none)
+Group.new("Directory", colors.cyan, nil, styles.none)
 Group.new("Special", colors.cyan, colors.background, styles.none)
 Group.new("LspReferenceText", nil, colors.gray1, styles.none)
 
