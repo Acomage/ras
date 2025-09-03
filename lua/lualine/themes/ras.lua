@@ -7,9 +7,10 @@ local colors = {
 	bright_magenta = "#F5A2E0",
 	cyan = "#22CCCC",
 	bcbackground = "#303030",
+	black = "#0F0F0F",
 }
 hl.normal = {
-	a = { bg = colors.bcbackground, fg = colors.cyan },
+	a = { bg = colors.black, fg = colors.cyan },
 	b = { bg = colors.bcbackground, fg = colors.cyan },
 	c = { bg = colors.bcbackground, fg = colors.cyan },
 	x = { bg = colors.bcbackground, fg = colors.cyan },
@@ -63,7 +64,7 @@ hl.terminal = {
 }
 
 hl.inactive = {
-	a = { bg = colors.bcbackground, fg = colors.cyan },
+	a = { bg = colors.black, fg = colors.cyan },
 	b = { bg = colors.bcbackground, fg = colors.cyan },
 	c = { bg = colors.bcbackground, fg = colors.cyan },
 	x = { bg = colors.bcbackground, fg = colors.cyan },
