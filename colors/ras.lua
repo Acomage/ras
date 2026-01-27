@@ -197,5 +197,4 @@ Group.new("MiniIconsOrange", colors.yellow, nil, styles.none)
 Group.new("MiniIconsRed", colors.bright_red, nil, styles.none)
 
 -- Statusline
--- Group.new("StatusLine", colors.cyan, colors.background, styles.none)
-Group.new("StatusLine", colors.cyan, colors.gray2, styles.none)
+Group.new("StatusLine", colors.cyan, colors.background, styles.none)
